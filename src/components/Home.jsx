@@ -1,19 +1,23 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.jpg";
+import HeroImage from "../assets/heroImage1.jpg";
 import { TiArrowRightOutline } from "react-icons/ti";
 import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className=" h-screen bg-gradient-to-b from-black via-black to-gray-800 text-white">
+    <div
+      name="home"
+      className=" h-screen bg-gradient-to-b from-black via-black to-gray-800 text-white"
+    >
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
         <div className="flex flex-col justify-center md:w-1/2">
-          <h2 className="text-4xl sm:text-7xl font-bold ">
-            I'm a FullStack Developer
+          <h2 className="text-2xl sm:text-6xl font-bold ">
+            Revolutionize Mobile <p className="text-red-800">Dev</p> with React
+            Native
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Experienced in building and designing software. I enjoy crafting web
-            applications using React, Tailwind, Node.js, and Mongo Atlas.
+            Experienced in React Native, React,Redux, Tailwind, Node.js, Aws,
+            MongoDB—crafting innovative web and mobile solutions."
           </p>
           <div>
             <Link

@@ -3,6 +3,9 @@ import Modal from "react-modal";
 import nike from "../assets/portfolio/nike.png";
 import nikey from "../assets/videos/nikey.mp4";
 import clickcrazy from "../assets/portfolio/ClickCrazy.png";
+import littleLooms from "../assets/portfolio/Little-looms.png"
+import urbantrends from "../assets/portfolio/urbanTrends.png"
+
 import ClickCrazy from "../assets/videos/ClickCrazyh.mp4";
 import ReelFlicks from "../assets/portfolio/ReelFlicks.png";
 import reelFlicks from "../assets/videos/ReelFlickz.mp4";
@@ -18,36 +21,49 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: littleLooms,
+      // video: ClickCrazy,
+      // codeLink: "https://github.com/MohamedAzaruddinTH/ClickCrazyh",
+    },
+    {
+      id: 2,
       src: clickcrazy,
       video: ClickCrazy,
       codeLink: "https://github.com/MohamedAzaruddinTH/ClickCrazyh",
     },
     {
-      id: 2,
+      id: 3,
+      src: urbantrends,
+      // video: ClickCrazy,
+      // codeLink: "https://github.com/MohamedAzaruddinTH/ClickCrazyh",
+    },
+    
+    {
+      id: 4,
       src: nike,
       video: nikey,
       codeLink: "https://github.com/MohamedAzaruddinTH/Nike-store-AjSTACK",
     },
     {
-      id: 3,
+      id: 5,
       src: ReelFlicks,
       video: reelFlicks,
       codeLink: "https://github.com/MohamedAzaruddinTH/ReelFlicks",
     },
     {
-      id: 4,
+      id: 6,
       src: fitness,
       video: Fitness,
       codeLink: "https://github.com/MohamedAzaruddinTH/Fitness",
     },
     {
-      id: 5,
+      id: 7,
       src: rcpe,
       video: Recipe,
       codeLink: "https://github.com/MohamedAzaruddinTH/Recipe",
     },
     {
-      id: 6,
+      id: 8,
       src: weather,
       video: Weather,
       codeLink: "https://github.com/MohamedAzaruddinTH/Weather_App",
@@ -70,7 +86,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white "
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white " 
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8">

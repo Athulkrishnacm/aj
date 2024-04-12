@@ -3,6 +3,9 @@ import Html from "../assets/html.png";
 import Css from "../assets/css.png";
 import Javascript from "../assets/javascript.png";
 import ReactImage from "../assets/react.png";
+import ReactNative from "../assets/reactNative.png"
+import Redux from "../assets/redux.png"
+import Aws from "../assets/AWSLogo.png"
 import Node from "../assets/node.png";
 import Github from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
@@ -13,58 +16,83 @@ const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: Html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: ReactNative,
+      title: "REACT NATIVE",
+      style: "shadow-purple-500",
     },
     {
       id: 2,
-      src: Css,
-      title: "CSS",
-      style: "shadow-blue-500",
+      src: ReactImage,
+      title: "REACT",
+      style: "shadow-rose-700",
     },
     {
       id: 3,
-      src: Javascript,
-      title: "JAVASCRIPT",
-      style: "shadow-yellow-500",
+      src: Redux,
+      title: "REDUX",
+      style: "shadow-red-600",
     },
     {
       id: 4,
-      src: ReactImage,
-      title: "REACT",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 5,
       src: Node,
       title: "NODE JS",
       style: "shadow-green-500",
     },
     {
-      id: 6,
+      id: 5,
       src: MongoDb,
       title: "MONGO DB",
       style: "shadow-amber-900",
     },
     {
+      id: 6,
+      src: Javascript,
+      title: "JAVASCRIPT",
+      style: "shadow-yellow-500",
+    },
+    {
       id: 7,
-      src: Github,
-      title: "GITHUB",
-      style: "shadow-gray-400",
+      src: Aws,
+      title: "AWS",
+      style: "shadow-pink-500",
     },
     {
       id: 8,
+      src: Tailwind,
+      title: "TAILWIND",
+      style: "shadow-sky-400",
+    },
+    
+    {
+      id: 9,
       src: Git,
       title: "GIT",
       style: "shadow-lime-500",
     },
     {
-      id: 9,
-      src: Tailwind,
-      title: "TAILWIND",
-      style: "shadow-sky-400",
+      id: 10,
+      src: Github,
+      title: "GITHUB",
+      style: "shadow-gray-400",
     },
+    {
+      id: 11,
+      src: Html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 12,
+      src: Css,
+      title: "CSS",
+      style: "shadow-blue-500",
+    },
+   
+   
+    
+    
+   
+    
   ];
   return (
     <div
